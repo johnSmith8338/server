@@ -1,14 +1,14 @@
-#Test Mail
+# Test Mail
 
 Test mail receiving for OTP to check localy
 
-##Install MailDev
+## Install MailDev
 
 If didn't install yet `npm install -g maildev` or `npm install maildev`
 then `maildev` or `npx maildev` accordingly
 This will start SMTP server with web interface on http://localhost:1080
 
-##Init backend
+## Init backend
 
 Create new folder 'server' or whatever
 open this folder in terminal (example: /d/dev/server)
@@ -17,7 +17,7 @@ install dependences `npm install express nodemailer cors`
 copy file 'server.js'
 start server `node server.js`
 
-###If got error
+### If got error
 
 $ node server.js
 (node:8564) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/dev/server/server.js is not specified and it doesn't parse as CommonJS.
